@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428D37A2764631D00406822 /* FocusSnsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3792764631D00406822 /* FocusSnsApp.swift */; };
+		0428D37C2764631D00406822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D37B2764631D00406822 /* ContentView.swift */; };
+		0428D37E2764631E00406822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428D37D2764631E00406822 /* Assets.xcassets */; };
+		0428D3812764631E00406822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428D3802764631E00406822 /* Preview Assets.xcassets */; };
+		0428D3892764647E00406822 /* ProgressTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3882764647E00406822 /* ProgressTabView.swift */; };
+		0428D38C276464D400406822 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38B276464D400406822 /* TimeManager.swift */; };
+		0428D38E276464FE00406822 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38D276464FE00406822 /* Data.swift */; };
+		0428D3902764652200406822 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38F2764652200406822 /* UserInformation.swift */; };
+		0428D3932764656E00406822 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3922764656E00406822 /* TaskRepository.swift */; };
+		0428D396276465C300406822 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D395276465C300406822 /* ButtonsView.swift */; };
+		0428D398276465DE00406822 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D397276465DE00406822 /* PickerView.swift */; };
+		0428D39A2764661A00406822 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3992764661A00406822 /* ProgressBar.swift */; };
+		0428D39C2764664100406822 /* SettingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D39B2764664100406822 /* SettingTabView.swift */; };
+		0428D39E2764666600406822 /* TableClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D39D2764666600406822 /* TableClockView.swift */; };
+		0428D3A02764669900406822 /* TableTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D39F2764669900406822 /* TableTimerView.swift */; };
+		0428D3A2276466B100406822 /* TaskDatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A1276466B100406822 /* TaskDatailView.swift */; };
+		0428D3A4276466DE00406822 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A3276466DE00406822 /* TaskListView.swift */; };
+		0428D3A62764672000406822 /* TimerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A52764672000406822 /* TimerTabView.swift */; };
+		0428D3A82764673B00406822 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A72764673A00406822 /* TimerView.swift */; };
+		0428D3AA2764675500406822 /* TodoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A92764675500406822 /* TodoTabView.swift */; };
+		0428D3B22764D56200406822 /* ClockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3B12764D56200406822 /* ClockManager.swift */; };
+		0428D3B427657BEF00406822 /* ClockFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3B327657BEF00406822 /* ClockFrameView.swift */; };
+		0489ED2327C326C50000A540 /* DataUIColorColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489ED2227C326C50000A540 /* DataUIColorColor.swift */; };
+		04C7553427C3AC5200F4F5A9 /* ExtendUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7553327C3AC5200F4F5A9 /* ExtendUserDefaults.swift */; };
+		52D8AED027E6EBFE009F74AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D8AECF27E6EBFE009F74AA /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0428D3762764631D00406822 /* FocusSns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusSns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428D3792764631D00406822 /* FocusSnsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSnsApp.swift; sourceTree = "<group>"; };
+		0428D37B2764631D00406822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0428D37D2764631E00406822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0428D3802764631E00406822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0428D3882764647E00406822 /* ProgressTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTabView.swift; sourceTree = "<group>"; };
+		0428D38B276464D400406822 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		0428D38D276464FE00406822 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0428D38F2764652200406822 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		0428D3922764656E00406822 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		0428D395276465C300406822 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		0428D397276465DE00406822 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		0428D3992764661A00406822 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		0428D39B2764664100406822 /* SettingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTabView.swift; sourceTree = "<group>"; };
+		0428D39D2764666600406822 /* TableClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableClockView.swift; sourceTree = "<group>"; };
+		0428D39F2764669900406822 /* TableTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTimerView.swift; sourceTree = "<group>"; };
+		0428D3A1276466B100406822 /* TaskDatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDatailView.swift; sourceTree = "<group>"; };
+		0428D3A3276466DE00406822 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		0428D3A52764672000406822 /* TimerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTabView.swift; sourceTree = "<group>"; };
+		0428D3A72764673A00406822 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0428D3A92764675500406822 /* TodoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTabView.swift; sourceTree = "<group>"; };
+		0428D3B12764D56200406822 /* ClockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockManager.swift; sourceTree = "<group>"; };
+		0428D3B327657BEF00406822 /* ClockFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFrameView.swift; sourceTree = "<group>"; };
+		0489ED2227C326C50000A540 /* DataUIColorColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUIColorColor.swift; sourceTree = "<group>"; };
+		049827612771CEB1005D7F4C /* FocusSns.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusSns.entitlements; sourceTree = "<group>"; };
+		04C7553327C3AC5200F4F5A9 /* ExtendUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendUserDefaults.swift; sourceTree = "<group>"; };
+		04FAB899276652C600629949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52D8AECF27E6EBFE009F74AA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428D3732764631D00406822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428D36D2764631D00406822 = {
+			isa = PBXGroup;
+			children = (
+				0428D3782764631D00406822 /* FocusSns */,
+				0428D3772764631D00406822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0428D3772764631D00406822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428D3762764631D00406822 /* FocusSns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428D3782764631D00406822 /* FocusSns */ = {
+			isa = PBXGroup;
+			children = (
+				0489ED1F27C230E60000A540 /* Utils */,
+				049827612771CEB1005D7F4C /* FocusSns.entitlements */,
+				04FAB899276652C600629949 /* Info.plist */,
+				0428D3B02764D52800406822 /* Data */,
+				0428D3792764631D00406822 /* FocusSnsApp.swift */,
+				0428D37B2764631D00406822 /* ContentView.swift */,
+				0428D3912764655900406822 /* Repositories */,
+				0428D38A276464BE00406822 /* Managers */,
+				0428D3872764645800406822 /* Views */,
+				0428D37D2764631E00406822 /* Assets.xcassets */,
+				52D8AECF27E6EBFE009F74AA /* Localizable.strings */,
+				0428D37F2764631E00406822 /* Preview Content */,
+			);
+			path = FocusSns;
+			sourceTree = "<group>";
+		};
+		0428D37F2764631E00406822 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0428D3802764631E00406822 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0428D3872764645800406822 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0428D3AE2764691D00406822 /* ClockView */,
+				0428D3AD276468B500406822 /* PomoBarView */,
+				0428D3AF27646A2A00406822 /* PomoTimerView */,
+				0428D3AB2764681800406822 /* TaskView */,
+				0428D3AC2764683E00406822 /* SettingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0428D38A276464BE00406822 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0428D38B276464D400406822 /* TimeManager.swift */,
+				0428D3B12764D56200406822 /* ClockManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0428D3912764655900406822 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0428D3922764656E00406822 /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0428D394276465AB00406822 /* PartsOfView */ = {
+			isa = PBXGroup;
+			children = (
+				0428D395276465C300406822 /* ButtonsView.swift */,
+				0428D397276465DE00406822 /* PickerView.swift */,
+				0428D3992764661A00406822 /* ProgressBar.swift */,
+			);
+			path = PartsOfView;
+			sourceTree = "<group>";
+		};
+		0428D3AB2764681800406822 /* TaskView */ = {
+			isa = PBXGroup;
+			children = (
+				0428D3A92764675500406822 /* TodoTabView.swift */,
+				0428D3A3276466DE00406822 /* TaskListView.swift */,
+				0428D3A1276466B100406822 /* TaskDatailView.swift */,
+			);
+			path = TaskView;
+			sourceTree = "<group>";
+		};
+		0428D3AC2764683E00406822 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				0428D39B2764664100406822 /* SettingTabView.swift */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		0428D3AD276468B500406822 /* PomoBarView */ = {
+			isa = PBXGroup;
+			children = (
+				0428D394276465AB00406822 /* PartsOfView */,
+				0428D3882764647E00406822 /* ProgressTabView.swift */,
+				0428D3A72764673A00406822 /* TimerView.swift */,
+			);
+			path = PomoBarView;
+			sourceTree = "<group>";
+		};
+		0428D3AE2764691D00406822 /* ClockView */ = {
+			isa = PBXGroup;
+			children = (
+				0428D39D2764666600406822 /* TableClockView.swift */,
+				0428D3B327657BEF00406822 /* ClockFrameView.swift */,
+			);
+			path = ClockView;
+			sourceTree = "<group>";
+		};
+		0428D3AF27646A2A00406822 /* PomoTimerView */ = {
+			isa = PBXGroup;
+			children = (
+				0428D3A52764672000406822 /* TimerTabView.swift */,
+				0428D39F2764669900406822 /* TableTimerView.swift */,
+			);
+			path = PomoTimerView;
+			sourceTree = "<group>";
+		};
+		0428D3B02764D52800406822 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0428D38D276464FE00406822 /* Data.swift */,
+				0428D38F2764652200406822 /* UserInformation.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0489ED1F27C230E60000A540 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0489ED2227C326C50000A540 /* DataUIColorColor.swift */,
+				04C7553327C3AC5200F4F5A9 /* ExtendUserDefaults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428D3752764631D00406822 /* FocusSns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428D3842764631E00406822 /* Build configuration list for PBXNativeTarget "FocusSns" */;
+			buildPhases = (
+				0428D3722764631D00406822 /* Sources */,
+				0428D3732764631D00406822 /* Frameworks */,
+				0428D3742764631D00406822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusSns;
+			productName = FocusSns;
+			productReference = 0428D3762764631D00406822 /* FocusSns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428D36E2764631D00406822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					0428D3752764631D00406822 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 0428D3712764631D00406822 /* Build configuration list for PBXProject "FocusSns" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				"zh-Hant",
+				ko,
+				"es-419",
+			);
+			mainGroup = 0428D36D2764631D00406822;
+			productRefGroup = 0428D3772764631D00406822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428D3752764631D00406822 /* FocusSns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428D3742764631D00406822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D8AED027E6EBFE009F74AA /* Localizable.strings in Resources */,
+				0428D3812764631E00406822 /* Preview Assets.xcassets in Resources */,
+				0428D37E2764631E00406822 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428D3722764631D00406822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428D3A62764672000406822 /* TimerTabView.swift in Sources */,
+				0428D3A2276466B100406822 /* TaskDatailView.swift in Sources */,
+				0428D37C2764631D00406822 /* ContentView.swift in Sources */,
+				0428D3A4276466DE00406822 /* TaskListView.swift in Sources */,
+				0489ED2327C326C50000A540 /* DataUIColorColor.swift in Sources */,
+				0428D3902764652200406822 /* UserInformation.swift in Sources */,
+				0428D39C2764664100406822 /* SettingTabView.swift in Sources */,
+				0428D38E276464FE00406822 /* Data.swift in Sources */,
+				0428D3A82764673B00406822 /* TimerView.swift in Sources */,
+				0428D3AA2764675500406822 /* TodoTabView.swift in Sources */,
+				04C7553427C3AC5200F4F5A9 /* ExtendUserDefaults.swift in Sources */,
+				0428D37A2764631D00406822 /* FocusSnsApp.swift in Sources */,
+				0428D38C276464D400406822 /* TimeManager.swift in Sources */,
+				0428D3892764647E00406822 /* ProgressTabView.swift in Sources */,
+				0428D3A02764669900406822 /* TableTimerView.swift in Sources */,
+				0428D3B427657BEF00406822 /* ClockFrameView.swift in Sources */,
+				0428D396276465C300406822 /* ButtonsView.swift in Sources */,
+				0428D3B22764D56200406822 /* ClockManager.swift in Sources */,
+				0428D398276465DE00406822 /* PickerView.swift in Sources */,
+				0428D39A2764661A00406822 /* ProgressBar.swift in Sources */,
+				0428D39E2764666600406822 /* TableClockView.swift in Sources */,
+				0428D3932764656E00406822 /* TaskRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0428D3822764631E00406822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0428D3832764631E00406822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0428D3852764631E00406822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusSns/FocusSns.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.02;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusSns/Preview Content\"";
+				DEVELOPMENT_TEAM = PBBV5BVMZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusSns/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Taimer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichone.FocusSns;
+				PRODUCT_NAME = FocusSns;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0428D3862764631E00406822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusSns/FocusSns.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.02;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusSns/Preview Content\"";
+				DEVELOPMENT_TEAM = PBBV5BVMZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusSns/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Taimer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichone.FocusSns;
+				PRODUCT_NAME = FocusSns;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428D3712764631D00406822 /* Build configuration list for PBXProject "FocusSns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D3822764631E00406822 /* Debug */,
+				0428D3832764631E00406822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428D3842764631E00406822 /* Build configuration list for PBXNativeTarget "FocusSns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D3852764631E00406822 /* Debug */,
+				0428D3862764631E00406822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428D36E2764631D00406822 /* Project object */;
+}
