@@ -25,7 +25,7 @@ struct ProgressTabView: View {
     @Environment(\.horizontalSizeClass) var hSizeClass
     @Environment(\.verticalSizeClass) var vSizeClass
     var body: some View {
-//        let deviceTraitStatus = DeviceTraitStatus(hSizeClass: self.hSizeClass, vSizeClass: self.vSizeClass)
+        let deviceTraitStatus = DeviceTraitStatus(hSizeClass: self.hSizeClass, vSizeClass: self.vSizeClass)
 
         ZStack {
             // 止まってる時はピッカー表示・そうじゃない（動いてるとき・一時停止の）時はタイマー表示
@@ -33,22 +33,22 @@ struct ProgressTabView: View {
                 PickerView()
             } else {
                 if timeManager.isProgressBarOn {
-//                    switch deviceTraitStatus {
-//                    case .wRhR, .wRhC, .wChC:
-//                        HStack {
-//                            if timeManager.isTableClockViewOn {
-//                                TableClockView()
-//                            }
-//                            ProgressBarView()
-//                        }
-//                    case  .wChR:
+                    switch deviceTraitStatus {
+                    case .wRhR, .wRhC, .wChC:
+                        HStack {
+                            if timeManager.isTableClockViewOn {
+                                TableClockView()
+                            }
+                            ProgressBarView()
+                        }
+                    case  .wChR:
                         VStack {
                             if timeManager.isTableClockViewOn {
                                 TableClockView()
                             }
                             ProgressBarView()
                         }
-//                    }
+                    }
                 }
             }
             
@@ -57,20 +57,10 @@ struct ProgressTabView: View {
                 ZStack {
                     if self.timeManager.isButtonViewOn == true {
                         ButtonsView()
-                            .padding(.bottom, 50)
-                            .padding(.trailing, 20)
+                            .padding()
                     }
                 }
             }
         }
     }
 }
-
-
-//struct MainTabView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Group {
-//            ProgressTabView().environmentObject(TimeManager())
-//        }
-//    }
-//}

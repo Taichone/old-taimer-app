@@ -13,13 +13,11 @@ struct ButtonsView: View {
     var body: some View {
         // HStackで画面の左にリセットボタン、右にスタート/一時停止ボタン
         HStack {
-            Spacer()
             // リセットボタン
             Image(systemName: "stop.fill")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 40, height: 40)
-                .padding(.trailing)
                 .opacity(self.timeManager.timerStatus == .stopped ? 0.1 : 1)
                 .onTapGesture {
                     if timeManager.timerStatus != .stopped {
@@ -27,11 +25,11 @@ struct ButtonsView: View {
                         self.timeManager.reset()
                     }
                 }
+            Spacer()
             Image(systemName: self.timeManager.timerStatus == .running ? "pause.fill" : "play.fill")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 40, height: 40)
-                .padding(.trailing)
                 .opacity(self.timeManager.hourSelection == 0 && self.timeManager.minSelection == 0 && self.timeManager.secSelection == 0 ? 0.1 : 1)
                 .onTapGesture {
                     self.timeManager.impactLight.impactOccurred()
