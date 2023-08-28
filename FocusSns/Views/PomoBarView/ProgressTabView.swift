@@ -32,7 +32,7 @@ struct ProgressTabView: View {
             if timeManager.timerStatus == .stopped {
                 PickerView()
             } else {
-                if timeManager.isProgressBarOn {
+                if timeManager.isProgressBarOn { // ここから
                     switch deviceTraitStatus {
                     case .wRhR, .wRhC, .wChC:
                         HStack {
@@ -41,14 +41,14 @@ struct ProgressTabView: View {
                             }
                             ProgressBarView()
                         }
-                    case  .wChR:
+                    case  .wChR: // ここまで
                         VStack {
                             if timeManager.isTableClockViewOn {
                                 TableClockView()
                             }
                             ProgressBarView()
                         }
-                    }
+                    } // これもコメントアウト
                 }
             }
             
