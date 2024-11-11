@@ -22,7 +22,7 @@ struct ProgressBarView: View {
                         Circle()
                             .stroke(Color("MonoColor").opacity(0.1), style: StrokeStyle(lineWidth: shortSide * 0.2, lineCap: .butt, lineJoin: .miter))
                             .scaledToFit()
-                        //輪郭線の開始位置を12時の方向にする(デフォルトは3時の方向)
+                        // 輪郭線の開始位置を12時の方向に
                             .padding(shortSide * 0.2)
                         // メインの円(一番手前のレイヤー)
                         Circle()
@@ -33,7 +33,7 @@ struct ProgressBarView: View {
                                                        lineCap: .butt,
                                                        lineJoin: .miter))
                             .scaledToFit()
-                        //輪郭線の開始位置を12時の方向にする(デフォルトは3時の方向)
+                        // 輪郭線の開始位置を12時の方向に\
                             .rotationEffect(Angle(degrees: -90))
                             .padding(shortSide * 0.2)
                             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

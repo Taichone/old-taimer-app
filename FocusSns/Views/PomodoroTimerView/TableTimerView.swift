@@ -1,13 +1,3 @@
-//
-//  TableTimerView.swift
-//  FocusSns
-//
-//  Created by Rita on 2021/12/11.
-//
-//.onAppear(perform: { UIApplication.shared.isIdleTimerDisabled = true })
-//.onDisappear(perform: { UIApplication.shared.isIdleTimerDisabled = false })
-//
-
 import SwiftUI
 
 struct TableTimerView: View {

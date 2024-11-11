@@ -114,23 +114,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().environmentObject(TimeManager()).environmentObject(ClockManager())
     }
 }
-
-
-/*===============================
- geometry を使う View 定義のテンプレ
- ===============================*/
-
-//GeometryReader { geometry in
-//    let width = geometry.size.width
-//    let height = geometry.size.height
-//    let shortSide  = width > height ? height : width
-//    VStack {
-//        Spacer()
-//        HStack {
-//            Spacer()
-//            // View を書く
-//            Spacer()
-//        }
-//        Spacer()
-//    }
-//}

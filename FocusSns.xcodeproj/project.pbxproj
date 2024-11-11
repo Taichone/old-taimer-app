@@ -13,24 +13,20 @@
 		0428D3812764631E00406822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428D3802764631E00406822 /* Preview Assets.xcassets */; };
 		0428D3892764647E00406822 /* ProgressTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3882764647E00406822 /* ProgressTabView.swift */; };
 		0428D38C276464D400406822 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38B276464D400406822 /* TimeManager.swift */; };
-		0428D38E276464FE00406822 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38D276464FE00406822 /* Data.swift */; };
-		0428D3902764652200406822 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38F2764652200406822 /* UserInformation.swift */; };
-		0428D3932764656E00406822 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3922764656E00406822 /* TaskRepository.swift */; };
+		0428D38E276464FE00406822 /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D38D276464FE00406822 /* TimeFormat.swift */; };
 		0428D396276465C300406822 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D395276465C300406822 /* ButtonsView.swift */; };
 		0428D398276465DE00406822 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D397276465DE00406822 /* PickerView.swift */; };
 		0428D39A2764661A00406822 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3992764661A00406822 /* ProgressBar.swift */; };
 		0428D39C2764664100406822 /* SettingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D39B2764664100406822 /* SettingTabView.swift */; };
 		0428D39E2764666600406822 /* TableClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D39D2764666600406822 /* TableClockView.swift */; };
 		0428D3A02764669900406822 /* TableTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D39F2764669900406822 /* TableTimerView.swift */; };
-		0428D3A2276466B100406822 /* TaskDatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A1276466B100406822 /* TaskDatailView.swift */; };
-		0428D3A4276466DE00406822 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A3276466DE00406822 /* TaskListView.swift */; };
-		0428D3A62764672000406822 /* TimerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A52764672000406822 /* TimerTabView.swift */; };
 		0428D3A82764673B00406822 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A72764673A00406822 /* TimerView.swift */; };
-		0428D3AA2764675500406822 /* TodoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3A92764675500406822 /* TodoTabView.swift */; };
 		0428D3B22764D56200406822 /* ClockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3B12764D56200406822 /* ClockManager.swift */; };
-		0428D3B427657BEF00406822 /* ClockFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D3B327657BEF00406822 /* ClockFrameView.swift */; };
 		0489ED2327C326C50000A540 /* DataUIColorColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489ED2227C326C50000A540 /* DataUIColorColor.swift */; };
 		04C7553427C3AC5200F4F5A9 /* ExtendUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7553327C3AC5200F4F5A9 /* ExtendUserDefaults.swift */; };
+		520231CD2CE1DE11007169D1 /* TimerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520231CC2CE1DE0E007169D1 /* TimerStatus.swift */; };
+		520231CF2CE1DE3A007169D1 /* TimerRunMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520231CE2CE1DE37007169D1 /* TimerRunMode.swift */; };
+		520231D12CE1DE5A007169D1 /* DeviceTraitStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520231D02CE1DE4D007169D1 /* DeviceTraitStatus.swift */; };
 		52D8AED027E6EBFE009F74AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D8AECF27E6EBFE009F74AA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -42,26 +38,22 @@
 		0428D3802764631E00406822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0428D3882764647E00406822 /* ProgressTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTabView.swift; sourceTree = "<group>"; };
 		0428D38B276464D400406822 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
-		0428D38D276464FE00406822 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		0428D38F2764652200406822 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
-		0428D3922764656E00406822 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		0428D38D276464FE00406822 /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
 		0428D395276465C300406822 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		0428D397276465DE00406822 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		0428D3992764661A00406822 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		0428D39B2764664100406822 /* SettingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTabView.swift; sourceTree = "<group>"; };
 		0428D39D2764666600406822 /* TableClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableClockView.swift; sourceTree = "<group>"; };
 		0428D39F2764669900406822 /* TableTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTimerView.swift; sourceTree = "<group>"; };
-		0428D3A1276466B100406822 /* TaskDatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDatailView.swift; sourceTree = "<group>"; };
-		0428D3A3276466DE00406822 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
-		0428D3A52764672000406822 /* TimerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTabView.swift; sourceTree = "<group>"; };
 		0428D3A72764673A00406822 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		0428D3A92764675500406822 /* TodoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTabView.swift; sourceTree = "<group>"; };
 		0428D3B12764D56200406822 /* ClockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockManager.swift; sourceTree = "<group>"; };
-		0428D3B327657BEF00406822 /* ClockFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFrameView.swift; sourceTree = "<group>"; };
 		0489ED2227C326C50000A540 /* DataUIColorColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUIColorColor.swift; sourceTree = "<group>"; };
 		049827612771CEB1005D7F4C /* FocusSns.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusSns.entitlements; sourceTree = "<group>"; };
 		04C7553327C3AC5200F4F5A9 /* ExtendUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendUserDefaults.swift; sourceTree = "<group>"; };
 		04FAB899276652C600629949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		520231CC2CE1DE0E007169D1 /* TimerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerStatus.swift; sourceTree = "<group>"; };
+		520231CE2CE1DE37007169D1 /* TimerRunMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerRunMode.swift; sourceTree = "<group>"; };
+		520231D02CE1DE4D007169D1 /* DeviceTraitStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTraitStatus.swift; sourceTree = "<group>"; };
 		52D8AECF27E6EBFE009F74AA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,10 +90,9 @@
 				0489ED1F27C230E60000A540 /* Utils */,
 				049827612771CEB1005D7F4C /* FocusSns.entitlements */,
 				04FAB899276652C600629949 /* Info.plist */,
-				0428D3B02764D52800406822 /* Data */,
+				0428D3B02764D52800406822 /* Entity */,
 				0428D3792764631D00406822 /* FocusSnsApp.swift */,
 				0428D37B2764631D00406822 /* ContentView.swift */,
-				0428D3912764655900406822 /* Repositories */,
 				0428D38A276464BE00406822 /* Managers */,
 				0428D3872764645800406822 /* Views */,
 				0428D37D2764631E00406822 /* Assets.xcassets */,
@@ -123,9 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				0428D3AE2764691D00406822 /* ClockView */,
-				0428D3AD276468B500406822 /* PomoBarView */,
-				0428D3AF27646A2A00406822 /* PomoTimerView */,
-				0428D3AB2764681800406822 /* TaskView */,
+				0428D3AD276468B500406822 /* PomodoroBarView */,
+				0428D3AF27646A2A00406822 /* PomodoroTimerView */,
 				0428D3AC2764683E00406822 /* SettingView */,
 			);
 			path = Views;
@@ -140,32 +130,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		0428D3912764655900406822 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				0428D3922764656E00406822 /* TaskRepository.swift */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		0428D394276465AB00406822 /* PartsOfView */ = {
+		0428D394276465AB00406822 /* ViewComponents */ = {
 			isa = PBXGroup;
 			children = (
 				0428D395276465C300406822 /* ButtonsView.swift */,
 				0428D397276465DE00406822 /* PickerView.swift */,
 				0428D3992764661A00406822 /* ProgressBar.swift */,
 			);
-			path = PartsOfView;
-			sourceTree = "<group>";
-		};
-		0428D3AB2764681800406822 /* TaskView */ = {
-			isa = PBXGroup;
-			children = (
-				0428D3A92764675500406822 /* TodoTabView.swift */,
-				0428D3A3276466DE00406822 /* TaskListView.swift */,
-				0428D3A1276466B100406822 /* TaskDatailView.swift */,
-			);
-			path = TaskView;
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 		0428D3AC2764683E00406822 /* SettingView */ = {
@@ -176,41 +148,41 @@
 			path = SettingView;
 			sourceTree = "<group>";
 		};
-		0428D3AD276468B500406822 /* PomoBarView */ = {
+		0428D3AD276468B500406822 /* PomodoroBarView */ = {
 			isa = PBXGroup;
 			children = (
-				0428D394276465AB00406822 /* PartsOfView */,
+				0428D394276465AB00406822 /* ViewComponents */,
 				0428D3882764647E00406822 /* ProgressTabView.swift */,
 				0428D3A72764673A00406822 /* TimerView.swift */,
 			);
-			path = PomoBarView;
+			path = PomodoroBarView;
 			sourceTree = "<group>";
 		};
 		0428D3AE2764691D00406822 /* ClockView */ = {
 			isa = PBXGroup;
 			children = (
 				0428D39D2764666600406822 /* TableClockView.swift */,
-				0428D3B327657BEF00406822 /* ClockFrameView.swift */,
 			);
 			path = ClockView;
 			sourceTree = "<group>";
 		};
-		0428D3AF27646A2A00406822 /* PomoTimerView */ = {
+		0428D3AF27646A2A00406822 /* PomodoroTimerView */ = {
 			isa = PBXGroup;
 			children = (
-				0428D3A52764672000406822 /* TimerTabView.swift */,
 				0428D39F2764669900406822 /* TableTimerView.swift */,
 			);
-			path = PomoTimerView;
+			path = PomodoroTimerView;
 			sourceTree = "<group>";
 		};
-		0428D3B02764D52800406822 /* Data */ = {
+		0428D3B02764D52800406822 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				0428D38D276464FE00406822 /* Data.swift */,
-				0428D38F2764652200406822 /* UserInformation.swift */,
+				520231D02CE1DE4D007169D1 /* DeviceTraitStatus.swift */,
+				520231CE2CE1DE37007169D1 /* TimerRunMode.swift */,
+				520231CC2CE1DE0E007169D1 /* TimerStatus.swift */,
+				0428D38D276464FE00406822 /* TimeFormat.swift */,
 			);
-			path = Data;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		0489ED1F27C230E60000A540 /* Utils */ = {
@@ -297,28 +269,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0428D3A62764672000406822 /* TimerTabView.swift in Sources */,
-				0428D3A2276466B100406822 /* TaskDatailView.swift in Sources */,
 				0428D37C2764631D00406822 /* ContentView.swift in Sources */,
-				0428D3A4276466DE00406822 /* TaskListView.swift in Sources */,
 				0489ED2327C326C50000A540 /* DataUIColorColor.swift in Sources */,
-				0428D3902764652200406822 /* UserInformation.swift in Sources */,
 				0428D39C2764664100406822 /* SettingTabView.swift in Sources */,
-				0428D38E276464FE00406822 /* Data.swift in Sources */,
+				0428D38E276464FE00406822 /* TimeFormat.swift in Sources */,
 				0428D3A82764673B00406822 /* TimerView.swift in Sources */,
-				0428D3AA2764675500406822 /* TodoTabView.swift in Sources */,
+				520231CF2CE1DE3A007169D1 /* TimerRunMode.swift in Sources */,
 				04C7553427C3AC5200F4F5A9 /* ExtendUserDefaults.swift in Sources */,
 				0428D37A2764631D00406822 /* FocusSnsApp.swift in Sources */,
+				520231CD2CE1DE11007169D1 /* TimerStatus.swift in Sources */,
 				0428D38C276464D400406822 /* TimeManager.swift in Sources */,
 				0428D3892764647E00406822 /* ProgressTabView.swift in Sources */,
 				0428D3A02764669900406822 /* TableTimerView.swift in Sources */,
-				0428D3B427657BEF00406822 /* ClockFrameView.swift in Sources */,
 				0428D396276465C300406822 /* ButtonsView.swift in Sources */,
+				520231D12CE1DE5A007169D1 /* DeviceTraitStatus.swift in Sources */,
 				0428D3B22764D56200406822 /* ClockManager.swift in Sources */,
 				0428D398276465DE00406822 /* PickerView.swift in Sources */,
 				0428D39A2764661A00406822 /* ProgressBar.swift in Sources */,
 				0428D39E2764666600406822 /* TableClockView.swift in Sources */,
-				0428D3932764656E00406822 /* TaskRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

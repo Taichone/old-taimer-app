@@ -81,7 +81,6 @@ struct DigitalClockView: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    // View を書く
                     Text(String(format: self.clockManager.currentHour >= 10 ? "%02d:%02d" : "%01d:%02d",
                                 self.clockManager.currentHour,
                                 self.clockManager.currentMinute))

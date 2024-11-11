@@ -11,9 +11,7 @@ import SwiftUI
 struct ButtonsView: View {
     @EnvironmentObject var timeManager: TimeManager
     var body: some View {
-        // HStackで画面の左にリセットボタン、右にスタート/一時停止ボタン
         HStack {
-            // リセットボタン
             Image(systemName: "stop.fill")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -34,8 +32,8 @@ struct ButtonsView: View {
                 .onTapGesture {
                     self.timeManager.impactLight.impactOccurred()
                     
+                    //最初は集中時間から始まるように
                     if timeManager.timerStatus == .stopped {
-                        //最初は集中時間から始まるように
                         self.timeManager.timerRunMode = .focus
                         self.timeManager.setTimer()
                     }
@@ -50,7 +48,6 @@ struct ButtonsView: View {
     }
 }
 
-// プレビュー用のコード
 struct ButtonsView_Previews: PreviewProvider {
     static var previews: some View {
         ButtonsView()

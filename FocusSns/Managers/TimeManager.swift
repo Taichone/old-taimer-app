@@ -9,9 +9,8 @@ import SwiftUI
 import AudioToolbox
 
 class TimeManager: ObservableObject {
-
     let soundID: SystemSoundID = 1002
-    let impactLight = UIImpactFeedbackGenerator(style: .light) // .impactOccurred() で発動
+    let impactLight = UIImpactFeedbackGenerator(style: .light)
     
 // MARK: ユーザー設定
     @AppStorage(wrappedValue: false, "isAlarmOn") var isAlarmOn: Bool
